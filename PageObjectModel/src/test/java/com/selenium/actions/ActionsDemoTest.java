@@ -33,8 +33,7 @@ public class ActionsDemoTest {
 	  Actions actions1= actions.clickAndHold(source);
 	  Actions actions2 = actions1.moveByOffset(100, 0);
 	  Actions actions3 = actions2.release();
-	  actions3.build().perform();
-	  
+	  actions3.build().perform();	  
   }
   
   @Test
